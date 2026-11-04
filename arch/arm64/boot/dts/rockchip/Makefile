@@ -501,6 +501,7 @@ dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-panther-x2.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-radxa-zero3-ap6212.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-radxa-zero3.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-roc-pc.dtb
+dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-torder-r10d.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-armsom-sige3.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-dshanpi-r1.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-dshapi-r1.dtb
