@@ -95,6 +95,10 @@ config 8139_OLD_RX_RESET
 	  experience problems, you can enable this option to restore the
 	  old RX-reset behavior.  If unsure, say N.
 
+source "drivers/net/ethernet/realtek/r8125_vendor/Kconfig"
+
+source "drivers/net/ethernet/realtek/r8126_vendor/Kconfig"
+
 config R8168
 	tristate "Realtek 8168 gigabit ethernet support"
 	depends on PCI
